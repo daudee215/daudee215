@@ -1,0 +1,74 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A2233"/>
+      <stop offset="1" stop-color="#123E57"/>
+    </linearGradient>
+    <linearGradient id="track" x1="140" y1="390" x2="1480" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9A826"/>
+      <stop offset="1" stop-color="#5DE2E7"/>
+    </linearGradient>
+    <linearGradient id="trackSoft" x1="220" y1="430" x2="1470" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4D35E" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7DE3D6" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="520" fill="url(#bg)"/>
+
+  <g opacity="0.15">
+    <path d="M1170 70C1285 112 1361 195 1406 295C1453 398 1457 470 1457 470" stroke="#D9F2FF" stroke-width="1.5"/>
+    <path d="M1105 38C1255 90 1357 178 1415 289C1470 394 1478 470 1478 470" stroke="#D9F2FF" stroke-width="1.5"/>
+    <path d="M1215 0C1358 61 1452 161 1506 294C1539 374 1553 450 1558 520" stroke="#D9F2FF" stroke-width="1.5"/>
+    <circle cx="1278" cy="180" r="52" stroke="#D9F2FF" stroke-width="1.5"/>
+    <circle cx="1278" cy="180" r="102" stroke="#D9F2FF" stroke-width="1.5"/>
+    <circle cx="1278" cy="180" r="152" stroke="#D9F2FF" stroke-width="1.5"/>
+  </g>
+
+  <g opacity="0.12">
+    <path d="M0 418C172 372 287 360 430 374C573 388 686 433 823 431C981 429 1089 331 1237 292C1363 258 1488 275 1600 331" stroke="#C7E7FF" stroke-width="2"/>
+    <path d="M0 456C165 408 293 400 443 414C592 428 711 473 840 472C979 472 1085 386 1210 351C1342 314 1481 326 1600 381" stroke="#C7E7FF" stroke-width="2"/>
+    <path d="M0 492C148 450 294 447 444 459C594 471 722 516 861 516C991 516 1115 455 1236 422C1360 388 1486 391 1600 432" stroke="#C7E7FF" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M118 388C258 348 390 338 531 345C708 354 834 404 986 391C1158 376 1281 274 1488 205" stroke="url(#track)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M160 430C302 395 432 389 566 398C726 409 857 454 1004 444C1168 432 1289 339 1461 255" stroke="url(#trackSoft)" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <circle cx="320" cy="150" r="5" fill="#5DE2E7"/>
+    <circle cx="388" cy="184" r="5" fill="#5DE2E7"/>
+    <circle cx="438" cy="136" r="5" fill="#5DE2E7"/>
+    <circle cx="510" cy="172" r="5" fill="#5DE2E7"/>
+    <circle cx="588" cy="128" r="5" fill="#5DE2E7"/>
+    <path d="M320 150L388 184L438 136L510 172L588 128" stroke="#5DE2E7" stroke-width="2"/>
+  </g>
+
+  <g>
+    <rect x="996" y="86" width="134" height="36" rx="18" fill="#16394C" stroke="#4ED7DE"/>
+    <rect x="1146" y="86" width="156" height="36" rx="18" fill="#16394C" stroke="#F9A826"/>
+    <rect x="1318" y="86" width="160" height="36" rx="18" fill="#16394C" stroke="#C8F169"/>
+    <text x="1063" y="109" fill="#DDF7FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">GIS</text>
+    <text x="1224" y="109" fill="#DDF7FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">Digital Twins</text>
+    <text x="1398" y="109" fill="#DDF7FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">Geospatial UI</text>
+  </g>
+
+  <text x="120" y="186" fill="#F8FCFF" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="700">Daud Tasleem</text>
+  <text x="124" y="236" fill="#BFE7F5" font-family="Segoe UI, Arial, sans-serif" font-size="26">Building GIS products, 3D interfaces, and digital twin workflows that feel production-ready.</text>
+  <text x="124" y="286" fill="#90D7D2" font-family="Segoe UI, Arial, sans-serif" font-size="22">Node.js  |  Cesium  |  Mapbox GL  |  Leaflet  |  Three.js  |  Spatial Data</text>
+
+  <g opacity="0.9">
+    <circle cx="118" cy="352" r="6" fill="#F9A826"/>
+    <text x="138" y="358" fill="#F6FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="20">Rail monitoring and infrastructure intelligence</text>
+    <circle cx="118" cy="388" r="6" fill="#5DE2E7"/>
+    <text x="138" y="394" fill="#F6FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="20">Operational dashboards with real spatial context</text>
+  </g>
+</svg>
