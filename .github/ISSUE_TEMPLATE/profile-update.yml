@@ -1,0 +1,26 @@
+name: Profile update
+description: Track a README, banner, or portfolio link update.
+title: "Profile: "
+labels: [profile]
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: Change
+      description: What should be updated in the profile?
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why is this update useful now?
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: Checks
+      description: Links, visuals, or wording that should be verified.
+    validations:
+      required: true
