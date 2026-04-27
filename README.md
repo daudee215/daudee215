@@ -1,13 +1,17 @@
 <!-- Use this README in the special daudee215/daudee215 profile repository. -->
 
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="DT GIS GeoAI BIM infrastructure and natural hazards banner" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Daud Tasleem researcher at Polito GIS GeoAI BIM infrastructure and natural hazards banner" width="100%" />
 </p>
 
 <h1 align="center">Daud Tasleem</h1>
 
 <p align="center">
-  Geospatial technologist focused on GIS, GeoAI, BIM, infrastructure intelligence, natural hazards, and 3D digital twin workflows.
+  <img src="./assets/profile-photo.jpg" alt="Daud Tasleem profile photo" width="128" />
+</p>
+
+<p align="center">
+  Researcher at Politecnico di Torino (Polito), focused on GIS, GeoAI, BIM, infrastructure intelligence, natural hazards, and 3D digital twin workflows.
 </p>
 
 <p align="center">
