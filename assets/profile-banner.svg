@@ -1,21 +1,21 @@
-<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1600" height="480" viewBox="0 0 1600 480" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#081C24"/>
-      <stop offset="0.58" stop-color="#12394A"/>
-      <stop offset="1" stop-color="#1A4F60"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1600" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1117"/>
+      <stop offset="0.54" stop-color="#10242B"/>
+      <stop offset="1" stop-color="#153F44"/>
     </linearGradient>
-    <linearGradient id="track" x1="140" y1="390" x2="1480" y2="180" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFB347"/>
-      <stop offset="0.55" stop-color="#5DE2E7"/>
-      <stop offset="1" stop-color="#9AF56F"/>
+    <linearGradient id="accent" x1="905" y1="412" x2="1500" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6B44B"/>
+      <stop offset="0.52" stop-color="#4AD6D0"/>
+      <stop offset="1" stop-color="#9BE86E"/>
     </linearGradient>
-    <linearGradient id="trackSoft" x1="220" y1="430" x2="1470" y2="210" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F4D35E" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#7DE3D6" stop-opacity="0.9"/>
+    <linearGradient id="panel" x1="1030" y1="92" x2="1496" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#162E35"/>
+      <stop offset="1" stop-color="#0E1B21"/>
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
+    <filter id="softGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -23,56 +23,49 @@
     </filter>
   </defs>
 
-  <rect width="1600" height="520" fill="url(#bg)"/>
-
-  <g opacity="0.16">
-    <path d="M1170 70C1285 112 1361 195 1406 295C1453 398 1457 470 1457 470" stroke="#D9F2FF" stroke-width="1.5"/>
-    <path d="M1105 38C1255 90 1357 178 1415 289C1470 394 1478 470 1478 470" stroke="#D9F2FF" stroke-width="1.5"/>
-    <path d="M1215 0C1358 61 1452 161 1506 294C1539 374 1553 450 1558 520" stroke="#D9F2FF" stroke-width="1.5"/>
-    <circle cx="1278" cy="180" r="52" stroke="#D9F2FF" stroke-width="1.5"/>
-    <circle cx="1278" cy="180" r="102" stroke="#D9F2FF" stroke-width="1.5"/>
-    <circle cx="1278" cy="180" r="152" stroke="#D9F2FF" stroke-width="1.5"/>
-  </g>
+  <rect width="1600" height="480" fill="url(#background)"/>
 
   <g opacity="0.12">
-    <path d="M0 418C172 372 287 360 430 374C573 388 686 433 823 431C981 429 1089 331 1237 292C1363 258 1488 275 1600 331" stroke="#C7E7FF" stroke-width="2"/>
-    <path d="M0 456C165 408 293 400 443 414C592 428 711 473 840 472C979 472 1085 386 1210 351C1342 314 1481 326 1600 381" stroke="#C7E7FF" stroke-width="2"/>
-    <path d="M0 492C148 450 294 447 444 459C594 471 722 516 861 516C991 516 1115 455 1236 422C1360 388 1486 391 1600 432" stroke="#C7E7FF" stroke-width="2"/>
+    <path d="M0 396C168 338 310 324 472 350C650 378 772 446 948 426C1122 406 1254 300 1424 268C1498 254 1558 260 1600 274" stroke="#E6F7F5" stroke-width="2"/>
+    <path d="M0 434C180 380 338 368 504 392C686 418 818 470 980 456C1166 440 1292 350 1446 326C1518 314 1568 320 1600 330" stroke="#E6F7F5" stroke-width="2"/>
+    <path d="M0 118H1600" stroke="#E6F7F5" stroke-width="1"/>
+    <path d="M0 240H1600" stroke="#E6F7F5" stroke-width="1"/>
+    <path d="M0 360H1600" stroke="#E6F7F5" stroke-width="1"/>
+    <path d="M320 0V480" stroke="#E6F7F5" stroke-width="1"/>
+    <path d="M640 0V480" stroke="#E6F7F5" stroke-width="1"/>
+    <path d="M960 0V480" stroke="#E6F7F5" stroke-width="1"/>
+    <path d="M1280 0V480" stroke="#E6F7F5" stroke-width="1"/>
   </g>
 
-  <g filter="url(#glow)">
-    <path d="M118 388C258 348 390 338 531 345C708 354 834 404 986 391C1158 376 1281 274 1488 205" stroke="url(#track)" stroke-width="10" stroke-linecap="round"/>
-    <path d="M160 430C302 395 432 389 566 398C726 409 857 454 1004 444C1168 432 1289 339 1461 255" stroke="url(#trackSoft)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1118 -70C1282 8 1434 134 1600 312V480H1010C1034 358 1030 216 1118 -70Z" fill="#173E43" opacity="0.62"/>
+  <path d="M978 406C1106 356 1216 306 1324 236C1398 188 1468 138 1532 88" stroke="url(#accent)" stroke-width="12" stroke-linecap="round" filter="url(#softGlow)"/>
+  <path d="M914 384C1068 348 1190 302 1304 226C1372 180 1436 130 1492 78" stroke="#89ECE4" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+
+  <g opacity="0.94">
+    <text x="116" y="168" fill="#F8FBFC" font-family="Segoe UI, Arial, sans-serif" font-size="98" font-weight="800">Daudee</text>
+    <text x="122" y="226" fill="#BFE8E5" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="500">Digital product studio</text>
+    <text x="122" y="288" fill="#F8FBFC" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">Web, UI/UX, AI, GIS + 3D</text>
+    <text x="124" y="344" fill="#8FDAD6" font-family="Segoe UI, Arial, sans-serif" font-size="25">daudee.com / Daud Tasleem</text>
   </g>
 
-  <g>
-    <circle cx="320" cy="150" r="5" fill="#5DE2E7"/>
-    <circle cx="388" cy="184" r="5" fill="#5DE2E7"/>
-    <circle cx="438" cy="136" r="5" fill="#5DE2E7"/>
-    <circle cx="510" cy="172" r="5" fill="#5DE2E7"/>
-    <circle cx="588" cy="128" r="5" fill="#5DE2E7"/>
-    <path d="M320 150L388 184L438 136L510 172L588 128" stroke="#5DE2E7" stroke-width="2"/>
+  <g transform="translate(1040 110)">
+    <rect x="0" y="0" width="390" height="238" rx="18" fill="url(#panel)" stroke="#3B7075" stroke-width="2"/>
+    <rect x="26" y="28" width="168" height="22" rx="11" fill="#EAF7F4" opacity="0.9"/>
+    <rect x="26" y="70" width="248" height="12" rx="6" fill="#4AD6D0" opacity="0.76"/>
+    <rect x="26" y="98" width="204" height="12" rx="6" fill="#F6B44B" opacity="0.8"/>
+    <rect x="26" y="126" width="292" height="12" rx="6" fill="#86E071" opacity="0.72"/>
+    <rect x="26" y="168" width="78" height="42" rx="10" fill="#0E1D22" stroke="#4AD6D0"/>
+    <rect x="124" y="168" width="78" height="42" rx="10" fill="#0E1D22" stroke="#F6B44B"/>
+    <rect x="222" y="168" width="78" height="42" rx="10" fill="#0E1D22" stroke="#86E071"/>
+    <path d="M314 52C344 76 360 108 358 140C356 176 330 202 294 208" stroke="#83E4DF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="322" cy="96" r="34" stroke="#83E4DF" stroke-width="2" opacity="0.42"/>
+    <circle cx="322" cy="96" r="62" stroke="#83E4DF" stroke-width="2" opacity="0.22"/>
   </g>
-
-  <g>
-    <rect x="884" y="86" width="134" height="36" rx="18" fill="#16394C" stroke="#4ED7DE"/>
-    <rect x="1034" y="86" width="138" height="36" rx="18" fill="#16394C" stroke="#FFB347"/>
-    <rect x="1188" y="86" width="134" height="36" rx="18" fill="#16394C" stroke="#C8F169"/>
-    <rect x="1338" y="86" width="140" height="36" rx="18" fill="#16394C" stroke="#BFE7F5"/>
-    <text x="951" y="109" fill="#DDF7FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">Web Dev</text>
-    <text x="1103" y="109" fill="#DDF7FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">UI/UX</text>
-    <text x="1255" y="109" fill="#DDF7FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">AI Work</text>
-    <text x="1408" y="109" fill="#DDF7FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">GIS + 3D</text>
-  </g>
-
-  <text x="120" y="178" fill="#F8FCFF" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="700">Daudee</text>
-  <text x="124" y="228" fill="#BFE7F5" font-family="Segoe UI, Arial, sans-serif" font-size="26">Digital product design, web development, AI workflows, GIS, and 3D interfaces.</text>
-  <text x="124" y="278" fill="#90D7D2" font-family="Segoe UI, Arial, sans-serif" font-size="22">daudee.com  |  Daud Tasleem  |  Updated April 2026</text>
 
   <g opacity="0.9">
-    <circle cx="118" cy="344" r="6" fill="#FFB347"/>
-    <text x="138" y="350" fill="#F6FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="20">Web, UI/UX, graphics, and product-ready agency delivery</text>
-    <circle cx="118" cy="388" r="6" fill="#5DE2E7"/>
-    <text x="138" y="394" fill="#F6FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="20">GIS dashboards, digital twins, and real spatial context</text>
+    <circle cx="1170" cy="354" r="6" fill="#F6B44B"/>
+    <circle cx="1218" cy="332" r="6" fill="#4AD6D0"/>
+    <circle cx="1266" cy="356" r="6" fill="#86E071"/>
+    <path d="M1170 354L1218 332L1266 356" stroke="#DDFBF7" stroke-width="2" opacity="0.75"/>
   </g>
 </svg>

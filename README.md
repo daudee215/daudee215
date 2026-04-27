@@ -1,7 +1,7 @@
 <!-- Use this README in the special daudee215/daudee215 profile repository. -->
 
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Daud Tasleem banner" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Daudee digital product studio banner" width="100%" />
 </p>
 
 <h1 align="center">Daud Tasleem</h1>

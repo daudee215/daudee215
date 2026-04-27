@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Replaced the busy profile banner with a cleaner Daudee-first studio banner.
 - Repositioned the profile around Daudee's current digital product agency services.
 - Updated the profile banner copy and service badges for the April 2026 context.
 - Added portfolio maintenance standards.
