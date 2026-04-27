@@ -7,15 +7,15 @@
 <h1 align="center">Daud Tasleem</h1>
 
 <p align="center">
-  <img src="./assets/profile-photo.jpg" alt="Daud Tasleem profile photo" width="128" />
-</p>
-
-<p align="center">
   Researcher at Politecnico di Torino (Polito), focused on GIS, GeoAI, BIM, infrastructure intelligence, natural hazards, and 3D digital twin workflows.
 </p>
 
 <p align="center">
   <a href="https://daudee.com">Website</a>
+  |
+  <a href="https://www.linkedin.com/in/daud-tasleem-73aa27131/">LinkedIn</a>
+  |
+  <a href="https://scholar.google.com/citations?user=pKgC0QwAAAAJ&hl=en">Google Scholar</a>
   |
   <a href="https://github.com/daudee215">GitHub</a>
 </p>
