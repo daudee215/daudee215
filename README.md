@@ -1,13 +1,13 @@
 <!-- Use this README in the special daudee215/daudee215 profile repository. -->
 
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Daudee digital product studio banner" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="DT GIS GeoAI BIM infrastructure and natural hazards banner" width="100%" />
 </p>
 
 <h1 align="center">Daud Tasleem</h1>
 
 <p align="center">
-  Founder/operator behind <a href="https://daudee.com">daudee.com</a>, building practical digital products across web development, UI/UX, graphics, AI workflows, GIS, and 3D interfaces.
+  Geospatial technologist focused on GIS, GeoAI, BIM, infrastructure intelligence, natural hazards, and 3D digital twin workflows.
 </p>
 
 <p align="center">
@@ -22,33 +22,33 @@
 
 ## Profile
 
-I build digital product experiences for teams that need more than a static website. Through Daudee, my work spans agency-style web delivery, product UI, visual systems, AI-assisted workflows, and geospatial interfaces for infrastructure and operations.
+I build geospatial systems that help teams understand infrastructure, terrain, exposure, and operational risk. My work sits at the intersection of GIS, GeoAI, BIM, remote sensing, natural-hazard analysis, digital twins, and infrastructure monitoring.
 
-The through-line is practical product thinking: clear interfaces, useful data flows, and prototypes that can move from idea to demo to production plan without losing the user context.
+The through-line is spatial intelligence: clear data pipelines, useful maps, 3D context, and decision-ready interfaces for complex built and natural environments.
 
 ## What I work on
 
-- Web development for service brands, product pages, dashboards, and internal tools.
-- UI/UX design systems that make complex workflows easier to scan and use.
-- Graphics and brand-facing assets for launches, profiles, campaigns, and case studies.
-- AI-assisted tools for content workflows, research support, automation, and product demos.
-- GIS-heavy web applications, digital twins, and 2D/3D geospatial interfaces.
+- GIS and GeoAI workflows for spatial analysis, automation, and decision support.
+- BIM and digital twin concepts for infrastructure monitoring and asset context.
+- Natural-hazard overlays for landslide, flood, subsidence, climate, and exposure workflows.
+- Remote sensing, point clouds, terrain data, and corridor-scale geospatial products.
+- 2D/3D interfaces using Cesium, Mapbox GL, Leaflet, and Three.js.
 
 ## Focus areas
 
 | Area | What that means in practice |
 | --- | --- |
-| Digital product delivery | Websites, product surfaces, dashboards, and polished demo experiences |
-| UI/UX and graphics | Interface systems, brand assets, profile visuals, and campaign-ready design |
-| AI workflows | AI-assisted content, research, automation, and product-support prototypes |
-| Geospatial UI | Spatial dashboards, map interactions, terrain-aware views, and digital twins |
-| Full-stack prototyping | Node.js APIs, lightweight data models, reporting, and product-style delivery |
+| GIS and GeoAI | Spatial analysis, automation, geospatial ML concepts, and decision support |
+| BIM and digital twins | Infrastructure context, asset views, 3D scenes, and inspection workflows |
+| Natural hazards | Landslide, flood, subsidence, climate, terrain, and exposure overlays |
+| Infrastructure intelligence | Corridor monitoring, risk dashboards, reporting, and operational context |
+| Geospatial interfaces | Spatial dashboards, map interactions, terrain-aware views, and 3D review |
 
 ## Featured work
 
 ### ModelRAIL Pro
 
-ModelRAIL Pro is a full-stack rail infrastructure monitoring prototype built around the real Ceva-Ormea corridor in Piemonte, Italy. It shows the technical side of the Daudee practice: turning spatial data, inspection thinking, and reporting into one product surface.
+ModelRAIL Pro is a full-stack rail infrastructure monitoring prototype built around the real Ceva-Ormea corridor in Piemonte, Italy. It turns spatial data, inspection thinking, natural-hazard context, and reporting into one product surface.
 
 - Five-stage pipeline from ingest to publish.
 - GIS and InSAR fusion with live SSE updates.
@@ -59,14 +59,14 @@ ModelRAIL Pro is a full-stack rail infrastructure monitoring prototype built aro
 
 ## Current direction
 
-- Refreshing daudee.com into a clearer digital product agency presence.
-- Publishing cleaner case studies for web, UI/UX, graphics, AI, GIS, and 3D work.
-- Building demo-ready product surfaces that connect content, data, automation, and visual design.
-- Continuing deeper GIS and digital twin work for infrastructure intelligence.
+- GIS, GeoAI, BIM, and digital twin workflows for infrastructure intelligence.
+- Natural-hazard context for rail, terrain, climate, and exposure analysis.
+- Point-cloud review, remote sensing, and corridor-scale spatial products.
+- Cleaner public case studies for geospatial engineering and risk workflows.
 
 ## Selected stack
 
-`JavaScript` `Node.js` `Express` `SQLite` `React` `Cesium` `Mapbox GL` `Leaflet` `Three.js` `GeoJSON` `AI workflows`
+`GIS` `GeoAI` `BIM` `Natural Hazards` `Remote Sensing` `Digital Twins` `JavaScript` `Node.js` `Cesium` `Mapbox GL` `Leaflet` `Three.js` `GeoJSON`
 
 ## Connect
 

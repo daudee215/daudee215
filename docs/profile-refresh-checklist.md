@@ -5,7 +5,7 @@ Run this checklist whenever the profile README changes.
 ## Content
 
 - The opening line says what kind of work Daud does now.
-- The profile is aligned with the current daudee.com service categories where appropriate.
+- The profile stays aligned with DT's GIS, GeoAI, BIM, infrastructure, and natural-hazard positioning.
 - Featured work links are current and do not expose private material by accident.
 - Tech stack labels match actual project code and demos.
 - Contact links are reachable.

@@ -1,20 +1,20 @@
 <svg width="1600" height="480" viewBox="0 0 1600 480" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1600" y2="480" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1117"/>
-      <stop offset="0.54" stop-color="#10242B"/>
-      <stop offset="1" stop-color="#153F44"/>
+      <stop stop-color="#091116"/>
+      <stop offset="0.52" stop-color="#102631"/>
+      <stop offset="1" stop-color="#173E3C"/>
     </linearGradient>
-    <linearGradient id="accent" x1="905" y1="412" x2="1500" y2="84" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F6B44B"/>
-      <stop offset="0.52" stop-color="#4AD6D0"/>
-      <stop offset="1" stop-color="#9BE86E"/>
+    <linearGradient id="terrain" x1="760" y1="420" x2="1520" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4B24A"/>
+      <stop offset="0.46" stop-color="#52D3C7"/>
+      <stop offset="1" stop-color="#9CE36F"/>
     </linearGradient>
-    <linearGradient id="panel" x1="1030" y1="92" x2="1496" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#162E35"/>
-      <stop offset="1" stop-color="#0E1B21"/>
+    <linearGradient id="panel" x1="998" y1="78" x2="1498" y2="352" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#142E36"/>
+      <stop offset="1" stop-color="#0C1A20"/>
     </linearGradient>
-    <filter id="softGlow" x="-20%" y="-40%" width="140%" height="180%">
+    <filter id="glow" x="-20%" y="-35%" width="140%" height="170%">
       <feGaussianBlur stdDeviation="14" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -26,46 +26,49 @@
   <rect width="1600" height="480" fill="url(#background)"/>
 
   <g opacity="0.12">
-    <path d="M0 396C168 338 310 324 472 350C650 378 772 446 948 426C1122 406 1254 300 1424 268C1498 254 1558 260 1600 274" stroke="#E6F7F5" stroke-width="2"/>
-    <path d="M0 434C180 380 338 368 504 392C686 418 818 470 980 456C1166 440 1292 350 1446 326C1518 314 1568 320 1600 330" stroke="#E6F7F5" stroke-width="2"/>
-    <path d="M0 118H1600" stroke="#E6F7F5" stroke-width="1"/>
-    <path d="M0 240H1600" stroke="#E6F7F5" stroke-width="1"/>
-    <path d="M0 360H1600" stroke="#E6F7F5" stroke-width="1"/>
-    <path d="M320 0V480" stroke="#E6F7F5" stroke-width="1"/>
-    <path d="M640 0V480" stroke="#E6F7F5" stroke-width="1"/>
-    <path d="M960 0V480" stroke="#E6F7F5" stroke-width="1"/>
-    <path d="M1280 0V480" stroke="#E6F7F5" stroke-width="1"/>
+    <path d="M0 386C168 332 316 324 492 352C684 382 802 442 978 420C1146 400 1268 302 1432 272C1500 260 1560 264 1600 276" stroke="#E7FAF4" stroke-width="2"/>
+    <path d="M0 426C178 374 342 368 520 394C706 420 838 468 1012 450C1194 432 1304 350 1450 326C1522 314 1572 322 1600 332" stroke="#E7FAF4" stroke-width="2"/>
+    <path d="M0 124H1600" stroke="#E7FAF4" stroke-width="1"/>
+    <path d="M0 244H1600" stroke="#E7FAF4" stroke-width="1"/>
+    <path d="M0 364H1600" stroke="#E7FAF4" stroke-width="1"/>
+    <path d="M320 0V480" stroke="#E7FAF4" stroke-width="1"/>
+    <path d="M640 0V480" stroke="#E7FAF4" stroke-width="1"/>
+    <path d="M960 0V480" stroke="#E7FAF4" stroke-width="1"/>
+    <path d="M1280 0V480" stroke="#E7FAF4" stroke-width="1"/>
   </g>
 
-  <path d="M1118 -70C1282 8 1434 134 1600 312V480H1010C1034 358 1030 216 1118 -70Z" fill="#173E43" opacity="0.62"/>
-  <path d="M978 406C1106 356 1216 306 1324 236C1398 188 1468 138 1532 88" stroke="url(#accent)" stroke-width="12" stroke-linecap="round" filter="url(#softGlow)"/>
-  <path d="M914 384C1068 348 1190 302 1304 226C1372 180 1436 130 1492 78" stroke="#89ECE4" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  <path d="M1128 -72C1274 6 1438 142 1600 310V480H1016C1044 350 1052 204 1128 -72Z" fill="#143C3D" opacity="0.7"/>
+  <path d="M850 398C1026 350 1168 292 1308 206C1382 160 1450 112 1514 64" stroke="url(#terrain)" stroke-width="13" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M920 386C1080 342 1198 292 1318 218C1390 174 1454 126 1510 80" stroke="#93EFE5" stroke-width="4" stroke-linecap="round" opacity="0.88"/>
 
-  <g opacity="0.94">
-    <text x="116" y="168" fill="#F8FBFC" font-family="Segoe UI, Arial, sans-serif" font-size="98" font-weight="800">Daudee</text>
-    <text x="122" y="226" fill="#BFE8E5" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="500">Digital product studio</text>
-    <text x="122" y="288" fill="#F8FBFC" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">Web, UI/UX, AI, GIS + 3D</text>
-    <text x="124" y="344" fill="#8FDAD6" font-family="Segoe UI, Arial, sans-serif" font-size="25">daudee.com / Daud Tasleem</text>
+  <g opacity="0.96">
+    <text x="112" y="160" fill="#F8FBFC" font-family="Segoe UI, Arial, sans-serif" font-size="118" font-weight="800">DT</text>
+    <text x="122" y="216" fill="#BCE7E1" font-family="Segoe UI, Arial, sans-serif" font-size="33" font-weight="600">Daud Tasleem</text>
+    <text x="122" y="282" fill="#F8FBFC" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="750">GIS / GeoAI / BIM</text>
+    <text x="124" y="338" fill="#9ADFD7" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="600">Infrastructure + Natural Hazards</text>
+    <text x="126" y="386" fill="#7ECBC4" font-family="Segoe UI, Arial, sans-serif" font-size="24">digital twins / remote sensing / spatial intelligence</text>
   </g>
 
-  <g transform="translate(1040 110)">
-    <rect x="0" y="0" width="390" height="238" rx="18" fill="url(#panel)" stroke="#3B7075" stroke-width="2"/>
-    <rect x="26" y="28" width="168" height="22" rx="11" fill="#EAF7F4" opacity="0.9"/>
-    <rect x="26" y="70" width="248" height="12" rx="6" fill="#4AD6D0" opacity="0.76"/>
-    <rect x="26" y="98" width="204" height="12" rx="6" fill="#F6B44B" opacity="0.8"/>
-    <rect x="26" y="126" width="292" height="12" rx="6" fill="#86E071" opacity="0.72"/>
-    <rect x="26" y="168" width="78" height="42" rx="10" fill="#0E1D22" stroke="#4AD6D0"/>
-    <rect x="124" y="168" width="78" height="42" rx="10" fill="#0E1D22" stroke="#F6B44B"/>
-    <rect x="222" y="168" width="78" height="42" rx="10" fill="#0E1D22" stroke="#86E071"/>
-    <path d="M314 52C344 76 360 108 358 140C356 176 330 202 294 208" stroke="#83E4DF" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="322" cy="96" r="34" stroke="#83E4DF" stroke-width="2" opacity="0.42"/>
-    <circle cx="322" cy="96" r="62" stroke="#83E4DF" stroke-width="2" opacity="0.22"/>
+  <g transform="translate(1018 92)">
+    <rect x="0" y="0" width="426" height="260" rx="18" fill="url(#panel)" stroke="#3B7372" stroke-width="2"/>
+    <path d="M44 198C86 166 132 156 180 168C232 180 264 218 314 210C352 204 382 178 402 152" stroke="#83E9DE" stroke-width="4" stroke-linecap="round"/>
+    <path d="M40 142C90 118 142 112 196 124C250 136 292 166 342 154C366 148 386 136 404 122" stroke="#F4B24A" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+    <path d="M54 70H192M54 100H238M54 130H162" stroke="#A8EEE6" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+    <rect x="54" y="172" width="80" height="44" rx="10" fill="#0C1A20" stroke="#52D3C7" stroke-width="2"/>
+    <rect x="154" y="172" width="80" height="44" rx="10" fill="#0C1A20" stroke="#F4B24A" stroke-width="2"/>
+    <rect x="254" y="172" width="80" height="44" rx="10" fill="#0C1A20" stroke="#9CE36F" stroke-width="2"/>
+    <text x="94" y="200" fill="#DDFBF7" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="700">GIS</text>
+    <text x="194" y="200" fill="#DDFBF7" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="700">AI</text>
+    <text x="294" y="200" fill="#DDFBF7" font-family="Segoe UI, Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="700">BIM</text>
+    <circle cx="318" cy="88" r="40" stroke="#8BECE3" stroke-width="2" opacity="0.58"/>
+    <circle cx="318" cy="88" r="70" stroke="#8BECE3" stroke-width="2" opacity="0.26"/>
+    <path d="M294 64L344 114M344 64L294 114" stroke="#8BECE3" stroke-width="3" stroke-linecap="round"/>
   </g>
 
   <g opacity="0.9">
-    <circle cx="1170" cy="354" r="6" fill="#F6B44B"/>
-    <circle cx="1218" cy="332" r="6" fill="#4AD6D0"/>
-    <circle cx="1266" cy="356" r="6" fill="#86E071"/>
-    <path d="M1170 354L1218 332L1266 356" stroke="#DDFBF7" stroke-width="2" opacity="0.75"/>
+    <circle cx="1116" cy="374" r="7" fill="#52D3C7"/>
+    <circle cx="1168" cy="350" r="7" fill="#F4B24A"/>
+    <circle cx="1224" cy="376" r="7" fill="#9CE36F"/>
+    <path d="M1116 374L1168 350L1224 376" stroke="#DDFBF7" stroke-width="2" opacity="0.72"/>
   </g>
 </svg>
