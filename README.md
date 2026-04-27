@@ -7,7 +7,7 @@
 <h1 align="center">Daud Tasleem</h1>
 
 <p align="center">
-  GIS specialist building geospatial dashboards, digital twin prototypes, and 3D web interfaces.
+  Founder/operator behind <a href="https://daudee.com">daudee.com</a>, building practical digital products across web development, UI/UX, graphics, AI workflows, GIS, and 3D interfaces.
 </p>
 
 <p align="center">
@@ -17,34 +17,38 @@
 </p>
 
 <p align="center">
-  Most of my current build work lives in private repositories while I prepare cleaner public case studies and demo-ready showcases.
+  Updated April 2026. Most current client and product work lives in private repositories while public case studies are being cleaned up for safer sharing.
 </p>
 
 ## Profile
 
-I build geospatial products that help teams understand infrastructure, terrain, and operations faster. My work usually sits at the intersection of GIS, frontend engineering, 3D interfaces, and data workflow design.
+I build digital product experiences for teams that need more than a static website. Through Daudee, my work spans agency-style web delivery, product UI, visual systems, AI-assisted workflows, and geospatial interfaces for infrastructure and operations.
+
+The through-line is practical product thinking: clear interfaces, useful data flows, and prototypes that can move from idea to demo to production plan without losing the user context.
 
 ## What I work on
 
-- GIS-heavy web applications that turn spatial data into decision-ready dashboards.
-- 2D and 3D interfaces using Cesium, Mapbox GL, Leaflet, and Three.js.
-- End-to-end prototypes that connect ingestion, analysis, visualization, and reporting.
-- Corridor-aware infrastructure tools for monitoring, inspection, and digital twin workflows.
+- Web development for service brands, product pages, dashboards, and internal tools.
+- UI/UX design systems that make complex workflows easier to scan and use.
+- Graphics and brand-facing assets for launches, profiles, campaigns, and case studies.
+- AI-assisted tools for content workflows, research support, automation, and product demos.
+- GIS-heavy web applications, digital twins, and 2D/3D geospatial interfaces.
 
 ## Focus areas
 
 | Area | What that means in practice |
 | --- | --- |
-| Geospatial UI | Spatial dashboards, map interactions, layer control, terrain-aware views |
-| 3D visualization | Cesium and Three.js experiences for digital twins and point-cloud review |
-| Operational GIS | Hazard overlays, rail corridor context, inspection and field-support workflows |
+| Digital product delivery | Websites, product surfaces, dashboards, and polished demo experiences |
+| UI/UX and graphics | Interface systems, brand assets, profile visuals, and campaign-ready design |
+| AI workflows | AI-assisted content, research, automation, and product-support prototypes |
+| Geospatial UI | Spatial dashboards, map interactions, terrain-aware views, and digital twins |
 | Full-stack prototyping | Node.js APIs, lightweight data models, reporting, and product-style delivery |
 
 ## Featured work
 
 ### ModelRAIL Pro
 
-ModelRAIL Pro is a full-stack rail infrastructure monitoring prototype built around the real Ceva-Ormea corridor in Piemonte, Italy. It combines geospatial context, digital twin views, inspection workflow thinking, and auditable reporting into a single product surface.
+ModelRAIL Pro is a full-stack rail infrastructure monitoring prototype built around the real Ceva-Ormea corridor in Piemonte, Italy. It shows the technical side of the Daudee practice: turning spatial data, inspection thinking, and reporting into one product surface.
 
 - Five-stage pipeline from ingest to publish.
 - GIS and InSAR fusion with live SSE updates.
@@ -55,13 +59,14 @@ ModelRAIL Pro is a full-stack rail infrastructure monitoring prototype built aro
 
 ## Current direction
 
-- Rail corridor monitoring and digital twin workflows.
-- Hazard overlays, InSAR analysis, and operational GIS products.
-- Point-cloud review, infrastructure reporting, and data-to-UI prototype work.
+- Refreshing daudee.com into a clearer digital product agency presence.
+- Publishing cleaner case studies for web, UI/UX, graphics, AI, GIS, and 3D work.
+- Building demo-ready product surfaces that connect content, data, automation, and visual design.
+- Continuing deeper GIS and digital twin work for infrastructure intelligence.
 
 ## Selected stack
 
-`JavaScript` `Node.js` `Express` `SQLite` `Cesium` `Mapbox GL` `Leaflet` `Three.js` `GeoJSON`
+`JavaScript` `Node.js` `Express` `SQLite` `React` `Cesium` `Mapbox GL` `Leaflet` `Three.js` `GeoJSON` `AI workflows`
 
 ## Connect
 

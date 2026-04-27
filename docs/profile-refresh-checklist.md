@@ -5,13 +5,16 @@ Run this checklist whenever the profile README changes.
 ## Content
 
 - The opening line says what kind of work Daud does now.
+- The profile is aligned with the current daudee.com service categories where appropriate.
 - Featured work links are current and do not expose private material by accident.
 - Tech stack labels match actual project code and demos.
 - Contact links are reachable.
+- Any explicit "Updated" date reflects a real content refresh, not a date-only churn commit.
 
 ## Visuals
 
 - Banner image loads from `assets/profile-banner.svg`.
+- Banner copy matches the README positioning.
 - The README still reads well on a narrow mobile viewport.
 - Tables are short enough to scan.
 
