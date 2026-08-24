@@ -7,7 +7,7 @@
 <h1 align="center">Daud Tasleem</h1>
 
 <p align="center">
-  Researcher at Politecnico di Torino (Polito), focused on GIS, GeoAI, BIM, infrastructure intelligence, natural hazards, and 3D digital twin workflows.
+  Researcher at Politecnico di Torino (Polito). Semantic modelling of geodata, geo-analytical question answering, GeoAI, and infrastructure digital twins.
 </p>
 
 <p align="center">
@@ -21,58 +21,74 @@
 </p>
 
 <p align="center">
-  Updated April 2026. Most current client and product work lives in private repositories while public case studies are being cleaned up for safer sharing.
+  Updated August 2026. The public repositories below are runnable and tested. Client and product work stays private.
 </p>
 
 ## Profile
 
-I build geospatial systems that help teams understand infrastructure, terrain, exposure, and operational risk. My work sits at the intersection of GIS, GeoAI, BIM, remote sensing, natural-hazard analysis, digital twins, and infrastructure monitoring.
+I build geospatial systems that make the analysis checkable. Recent work concentrates on
+the semantics of geodata: giving attributes explicit types, deriving which workflows those
+types actually admit, and measuring whether the answers produced are any use to the people
+who asked the question.
 
-The through-line is spatial intelligence: clear data pipelines, useful maps, 3D context, and decision-ready interfaces for complex built and natural environments.
+Alongside that runs applied infrastructure work at Polito, where the same concern appears
+as data pipelines, hazard context, and 3D review surfaces for real corridors and assets.
 
-## What I work on
+## Featured work
 
-- GIS and GeoAI workflows for spatial analysis, automation, and decision support.
-- BIM and digital twin concepts for infrastructure monitoring and asset context.
-- Natural-hazard overlays for landslide, flood, subsidence, climate, and exposure workflows.
-- Remote sensing, point clouds, terrain data, and corridor-scale geospatial products.
-- 2D/3D interfaces using Cesium, Mapbox GL, Leaflet, and Three.js.
+### Geo-analytical question answering
+
+Three packages written to work together. Each is runnable from a clean checkout and each
+has a test suite that runs in CI.
+
+| Repository | What it does |
+| --- | --- |
+| [typed-workflow-layer](https://github.com/daudee215/typed-workflow-layer) | A typed intermediate layer between a geo-analytical question and the workflows that answer it. Core concept data types, exhaustive workflow synthesis to a depth bound, cost-based ranking, and refusals that name the repairing transformation. Standard library only. |
+| [geo-annotation-kit](https://github.com/daudee215/geo-annotation-kit) | Semantic annotation of geodata attributes, with inter-annotator agreement measured on the axis it belongs on. Krippendorff ordinal alpha, disagreement analysis, and gold standards that refuse to break ties. |
+| [geoqa-study-harness](https://github.com/daudee215/geoqa-study-harness) | Running a user study on a question answering system. Workflow comparison as trees, power analysis before recruiting, and no export until the data is safe to publish. |
+
+A corpus annotated in `geo-annotation-kit` produces the typed sources `typed-workflow-layer`
+consumes. The answers its workflows produce are then scored in `geoqa-study-harness`.
+
+**Tech:** `Python` `GeoPandas` `pytest` `GitHub Actions`
+
+### natech-guidance-qa
+
+[natech-guidance-qa](https://github.com/daudee215/natech-guidance-qa) is retrieval-grounded
+question answering over the European Commission Joint Research Centre technical guidance on
+Natech risk management, with the retrieval measured rather than read. The underlying system
+comes from Politecnico di Torino work in April 2026 and is kept unchanged in `original/`.
+The corpus validation and retrieval evaluation were added later, and every module docstring
+states which part is which, so the difference is checkable rather than asserted.
+
+**Tech:** `Python` `pytest`
+
+### ModelRAIL Pro
+
+A full-stack rail infrastructure monitoring prototype built around the real Ceva-Ormea
+corridor in Piemonte, Italy. Five-stage pipeline from ingest to publish, GIS and InSAR
+fusion with live updates, UAV planning, point-cloud visualisation, role-based access, and
+audit logging. Private repository, available on request.
+
+**Tech:** `JavaScript` `Node.js` `Express` `SQLite` `Cesium` `Mapbox GL` `Leaflet` `Three.js`
 
 ## Focus areas
 
 | Area | What that means in practice |
 | --- | --- |
-| GIS and GeoAI | Spatial analysis, automation, geospatial ML concepts, and decision support |
-| BIM and digital twins | Infrastructure context, asset views, 3D scenes, and inspection workflows |
-| Natural hazards | Landslide, flood, subsidence, climate, terrain, and exposure overlays |
-| Infrastructure intelligence | Corridor monitoring, risk dashboards, reporting, and operational context |
-| Geospatial interfaces | Spatial dashboards, map interactions, terrain-aware views, and 3D review |
-
-## Featured work
-
-### ModelRAIL Pro
-
-ModelRAIL Pro is a full-stack rail infrastructure monitoring prototype built around the real Ceva-Ormea corridor in Piemonte, Italy. It turns spatial data, inspection thinking, natural-hazard context, and reporting into one product surface.
-
-- Five-stage pipeline from ingest to publish.
-- GIS and InSAR fusion with live SSE updates.
-- UAV planning, point-cloud visualization, and reporting.
-- Role-based access, audit logging, and Railway deployment support.
-
-**Tech:** `JavaScript` `Node.js` `Express` `SQLite` `Cesium` `Mapbox GL` `Leaflet` `Three.js`
-
-## Current direction
-
-- GIS, GeoAI, BIM, and digital twin workflows for infrastructure intelligence.
-- Natural-hazard context for rail, terrain, climate, and exposure analysis.
-- Point-cloud review, remote sensing, and corridor-scale spatial products.
-- Cleaner public case studies for geospatial engineering and risk workflows.
+| Semantic modelling of geodata | Core concept data types, attribute annotation, agreement measurement, and gold standards |
+| Geo-analytical question answering | Workflow synthesis under type constraints, cost-based ranking, provenance, and refusal with a named repair |
+| Evaluation | User studies, inter-annotator agreement, retrieval evaluation, and sizing a study before recruiting |
+| GeoAI and remote sensing | Spatial analysis, deep learning for mapping, point clouds, and corridor-scale products |
+| Infrastructure and natural hazards | Landslide, flood, subsidence, climate, and exposure context; digital twins and inspection workflows |
+| Geospatial interfaces | Spatial dashboards, map interaction, terrain-aware views, and 3D review |
 
 ## Selected stack
 
-`GIS` `GeoAI` `BIM` `Natural Hazards` `Remote Sensing` `Digital Twins` `JavaScript` `Node.js` `Cesium` `Mapbox GL` `Leaflet` `Three.js` `GeoJSON`
+`Python` `GeoPandas` `Rasterio` `Shapely` `GDAL` `PostGIS` `QGIS` `pytest` `JavaScript` `Node.js` `Cesium` `Mapbox GL` `Leaflet` `GeoJSON`
 
 ## Connect
 
 - Website: [daudee.com](https://daudee.com)
+- Google Scholar: [publications](https://scholar.google.com/citations?user=pKgC0QwAAAAJ&hl=en)
 - GitHub: [@daudee215](https://github.com/daudee215)
