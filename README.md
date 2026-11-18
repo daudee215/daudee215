@@ -1,7 +1,7 @@
 <!-- Use this README in the special daudee215/daudee215 profile repository. -->
 
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Daud Tasleem researcher at Polito GIS GeoAI BIM infrastructure and natural hazards banner" width="100%" />
+  <img src="./assets/turin-profile-banner.svg" alt="Daud Tasleem, Geospatial AI Researcher in Turin, working in remote sensing, spatial analytics, machine learning, and digital twins" width="100%" />
 </p>
 
 <h1 align="center">Daud Tasleem</h1>
