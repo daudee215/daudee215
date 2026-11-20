@@ -24,9 +24,9 @@
 
 ### Typed Workflow Layer
 
-*What share of each Amsterdam district is exposed to at least 70 dB?* The Python demo builds a workflow from typed inputs, runs it on synthetic geometry, and checks the result against a reference. It also shows how a workflow can pass type checking while answering the wrong question.
+*What share of each selected Amsterdam window falls in a road-noise class of 70 dB or higher?* The example tests two type-valid workflows on a frozen extract of RIVM's 2022 raster. The workflow that applies the threshold matches the independent pixel counts. The workflow that skips it reports 100% for each window.
 
-[Run the Amsterdam demo](https://github.com/daudee215/typed-workflow-layer#execution-provenance-and-correctness)
+[Run the versioned Amsterdam example](https://github.com/daudee215/typed-workflow-layer/tree/v0.1.0#amsterdam-road-noise-example)
 
 I use [Geo Annotation Kit](https://github.com/daudee215/geo-annotation-kit) to label the inputs and measure agreement, and [GeoQA Study Harness](https://github.com/daudee215/geoqa-study-harness) to compare system workflows with those produced by analysts.
 
